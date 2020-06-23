@@ -71,6 +71,7 @@ namespace itertools {
 
           iterator end() const { return iterator(kEnd, step); }
 
+ typedef int value_type;
 
 //    public:
 //
